@@ -1,3 +1,119 @@
-h1{
-    color: red;
+/*
+settings
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Yu Gothic Merdium";
+    color: black;
 }
+
+/*
+header
+*/
+header{
+width: 100vw;
+height: 60px;
+background-color: rgb(18, 17, 17);
+color: white;
+}
+header>span{
+    color: rgb(215, 85, 85);
+    font-size: 40px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 40px;
+}
+
+.small-logo{
+    width: 100px;
+    height: 60px;
+}
+
+/*
+main
+*/
+main{
+    width: 100vw;
+    
+     color: white;
+}
+#section-01{
+    width: 100vw;
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#section-01>video{
+    width: 80%;
+    height: auto;
+    
+}
+
+
+
+#section-02{
+    
+}
+/*
+footer
+*/
+footer{
+    width: 100vw;
+height: 60px;
+background-color: black;
+padding: 10px;
+text-align: center;
+
+}
+
+.footer-text{
+    color: white;
+}
+    
+.rec{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+.rec-img{
+    width: 40%;
+    height: auto;
+}
+
+.rec-bottom{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rec-description{
+    width: 50%;
+    text-wrap: balance;
+    text-indent: 30px;
+}
+
+h1{
+    text-align: center;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.logo-container img{
+    width: 100px;
+    height: auto;
+}
+
